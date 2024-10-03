@@ -158,7 +158,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="160-1178-1-ND" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.wTOmXNA0Q_qiNBpBf42b3g?version=1" locally_modified="yes" type="model" footprint_synced="no">
+<package3d name="LED" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.wTOmXNA0Q_qiNBpBf42b3g?version=1" locally_modified="yes" type="model" footprint_synced="no">
 <description>Chip LED, 2.00 X 1.25 X 1.10 mm body
  &lt;p&gt;Chip LED package with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -166,7 +166,7 @@
 </packageinstances>
 <metadata pins="2" bodyLength="2" bodyWidth="1.25" height="1.1" ipcFamily="CHIPLED" ipcName="LEDC2012X110N" mountingType="SMD"/>
 </package3d>
-<package3d name="SI2302CDS-T1-E3CT-ND" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.av4asmj8TRi-5kEITr-aRg?version=1" locally_modified="yes" type="model" footprint_synced="no">
+<package3d name="SOTFL" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.av4asmj8TRi-5kEITr-aRg?version=1" locally_modified="yes" type="model" footprint_synced="no">
 <description>3-SOT23, 0.95 mm pitch, 2.37 mm span, 2.92 X 1.30 X 1.12 mm body
  &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.37 mm span with body size 2.92 X 1.30 X 1.12 mm&lt;/p&gt;</description>
 <packageinstances>
