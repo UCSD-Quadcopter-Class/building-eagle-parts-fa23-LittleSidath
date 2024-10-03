@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" blackcolor="0xccc90d0c" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xccc90000" whitehighlight="0xccc90000" coloredhighlight="0xccc90000" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" blackcolor="0xccffe74c" whitecolor="0xccffe74c" coloredcolor="0xccffe74c" blackhighlight="0xccffd900" whitehighlight="0xccffd900" coloredhighlight="0xccffd900" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" blackcolor="0xcc91d178" whitecolor="0xcc91d178" coloredcolor="0xcc91d178" blackhighlight="0xcc3bd100" whitehighlight="0xcc3bd100" coloredhighlight="0xcc3bd100" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" blackcolor="0xccffdda1" whitecolor="0xccffdda1" coloredcolor="0xccffdda1" blackhighlight="0xccffa200" whitehighlight="0xccffa200" coloredhighlight="0xccffa200" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" blackcolor="0xcc5fad56" whitecolor="0xcc5fad56" coloredcolor="0xcc5fad56" blackhighlight="0xcc14ad00" whitehighlight="0xcc14ad00" coloredhighlight="0xcc14ad00" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" blackcolor="0xcc5e897c" whitecolor="0xcc5e897c" coloredcolor="0xcc5e897c" blackhighlight="0xcc00895e" whitehighlight="0xcc00895e" coloredhighlight="0xcc00895e" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" blackcolor="0xcc6f45b4" whitecolor="0xcc6f45b4" coloredcolor="0xcc6f45b4" blackhighlight="0xcc4200b4" whitehighlight="0xcc4200b4" coloredhighlight="0xcc4200b4" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" blackcolor="0xcc516363" whitecolor="0xcc516363" coloredcolor="0xcc516363" blackhighlight="0xcc006363" whitehighlight="0xcc006363" coloredhighlight="0xcc006363" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" blackcolor="0xccd6a2ad" whitecolor="0xccd6a2ad" coloredcolor="0xccd6a2ad" blackhighlight="0xccd6002e" whitehighlight="0xccd6002e" coloredhighlight="0xccd6002e" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" blackcolor="0xccef476f" whitecolor="0xccef476f" coloredcolor="0xccef476f" blackhighlight="0xccef003c" whitehighlight="0xccef003c" coloredhighlight="0xccef003c" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" blackcolor="0xccd4dcff" whitecolor="0xccd4dcff" coloredcolor="0xccd4dcff" blackhighlight="0xcc0033ff" whitehighlight="0xcc0033ff" coloredhighlight="0xcc0033ff" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" blackcolor="0xcc00bfb2" whitecolor="0xcc00bfb2" coloredcolor="0xcc00bfb2" blackhighlight="0xcc00bfaf" whitehighlight="0xcc00bfaf" coloredhighlight="0xcc00bfaf" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" blackcolor="0xcc65def1" whitecolor="0xcc65def1" coloredcolor="0xcc65def1" blackhighlight="0xcc00d1f1" whitehighlight="0xcc00d1f1" coloredhighlight="0xcc00d1f1" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" blackcolor="0xccc55ea3" whitecolor="0xccc55ea3" coloredcolor="0xccc55ea3" blackhighlight="0xccc50087" whitehighlight="0xccc50087" coloredhighlight="0xccc50087" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" blackcolor="0xccf56416" whitecolor="0xccf56416" coloredcolor="0xccf56416" blackhighlight="0xccf55200" whitehighlight="0xccf55200" coloredhighlight="0xccf55200" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" blackcolor="0xcc0696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xcc0097d7" whitehighlight="0xcc0097d7" coloredhighlight="0xcc0097d7" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" blackcolor="0xcc3ddc97" whitecolor="0xcc0dab76" coloredcolor="0xcc0dab76" blackhighlight="0xcc00dc79" whitehighlight="0xcc00ab6f" coloredhighlight="0xcc00ab6f" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" blackcolor="0xcc3ddc97" whitecolor="0xcc0dab76" coloredcolor="0xcc0dab76" blackhighlight="0xcc00dc79" whitehighlight="0xcc00ab6f" coloredhighlight="0xcc00ab6f" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" blackcolor="0xccc8c832" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccc8c800" whitehighlight="0xbbc8c800" coloredhighlight="0xbbc8c800" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="BoardOutline" blackcolor="0xcceec643" whitecolor="0xcceec643" coloredcolor="0xcceec643" blackhighlight="0xcceeb300" whitehighlight="0xcceeb300" coloredhighlight="0xcceeb300" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="SilkscreenTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="SilkscreenBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="OriginsTop" blackcolor="0xccafd134" whitecolor="0xccafd134" coloredcolor="0xccafd134" blackhighlight="0xcca7d100" whitehighlight="0xcca7d100" coloredhighlight="0xcca7d100" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="OriginsBottom" blackcolor="0xccafd134" whitecolor="0xccafd134" coloredcolor="0xccafd134" blackhighlight="0xcca7d100" whitehighlight="0xcca7d100" coloredhighlight="0xcca7d100" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="NamesTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="NamesBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="ValuesTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="ValuesBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="SolderMaskTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="SolderMaskBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="6" visible="no" active="yes"/>
+<layer number="31" name="StencilTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="4" visible="no" active="yes"/>
+<layer number="32" name="StencilBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="5" visible="no" active="yes"/>
+<layer number="33" name="FinishTop" blackcolor="0xccc8c832" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccc8c800" whitehighlight="0xbbc8c800" coloredhighlight="0xbbc8c800" fill="3" visible="no" active="yes"/>
+<layer number="34" name="FinishBottom" blackcolor="0xccc8c832" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccc8c800" whitehighlight="0xbbc8c800" coloredhighlight="0xbbc8c800" fill="6" visible="no" active="yes"/>
+<layer number="35" name="GlueTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="4" visible="no" active="yes"/>
+<layer number="36" name="GlueBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="5" visible="no" active="yes"/>
+<layer number="37" name="TestTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="no" active="yes"/>
+<layer number="38" name="TestBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="no" active="yes"/>
+<layer number="39" name="ComponentExcludeTop" blackcolor="0xccc90d0c" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xccc90000" whitehighlight="0xccc90000" coloredhighlight="0xccc90000" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="ComponentExcludeBottom" blackcolor="0xcc0696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xcc0097d7" whitehighlight="0xcc0097d7" coloredhighlight="0xcc0097d7" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="RestrictTop" blackcolor="0xccc90d0c" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xccc90000" whitehighlight="0xccc90000" coloredhighlight="0xccc90000" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="RestrictBottom" blackcolor="0xcc0696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xcc0097d7" whitehighlight="0xcc0097d7" coloredhighlight="0xcc0097d7" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="RestrictVias" blackcolor="0xcc3ddc97" whitecolor="0xcc0dab76" coloredcolor="0xcc0dab76" blackhighlight="0xcc00dc79" whitehighlight="0xcc00ab6f" coloredhighlight="0xcc00ab6f" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" blackcolor="0xcc32c8c8" whitecolor="0xb432c8c8" coloredcolor="0xb432c8c8" blackhighlight="0xcc00c8c8" whitehighlight="0xb400c8c8" coloredhighlight="0xb400c8c8" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="DocumentTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="DocumentBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" blackcolor="0xb40000ff" whitecolor="0xcc8252c2" coloredcolor="0xcc8252c2" blackhighlight="0xb40000ff" whitehighlight="0xcc5100c2" coloredhighlight="0xcc5100c2" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" blackcolor="0xb40000ff" whitecolor="0xcc8252c2" coloredcolor="0xcc8252c2" blackhighlight="0xb40000ff" whitehighlight="0xcc5100c2" coloredhighlight="0xcc5100c2" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" blackcolor="0xccffba08" whitecolor="0xccffba08" coloredcolor="0xccffba08" blackhighlight="0xccffb700" whitehighlight="0xccffb700" coloredhighlight="0xccffb700" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" blackcolor="0xcc3ddc97" whitecolor="0xcc0dab76" coloredcolor="0xcc0dab76" blackhighlight="0xcc00dc79" whitehighlight="0xcc00ab6f" coloredhighlight="0xcc00ab6f" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" blackcolor="0xcc0696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xcc0097d7" whitehighlight="0xcc0097d7" coloredhighlight="0xcc0097d7" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" blackcolor="0xcc3ddc97" whitecolor="0xcc0dab76" coloredcolor="0xcc0dab76" blackhighlight="0xcc00dc79" whitehighlight="0xcc00ab6f" coloredhighlight="0xcc00ab6f" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" blackcolor="0xccc90d0c" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xccc90000" whitehighlight="0xccc90000" coloredhighlight="0xccc90000" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" blackcolor="0xccc8c832" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccc8c800" whitehighlight="0xbbc8c800" coloredhighlight="0xbbc8c800" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="0805_RESISTOR" use_placeholder="yes">
+<smd name="1" x="-1" y="0" dx="0.9" dy="1.2" layer="1"/>
+<smd name="2" x="1" y="0" dx="0.9" dy="1.2" layer="1"/>
+<text x="0" y="1.2" size="0.9" layer="25" font="vector" align="bottom-center">&gt;Name</text>
+<text x="0" y="-2" size="0.9" layer="27" font="vector" align="bottom-center">&gt;Value</text>
+<wire x1="-1.9" y1="1" x2="1.9" y2="1" width="0.05" layer="39"/>
+<wire x1="1.9" y1="1" x2="1.9" y2="-1" width="0.05" layer="39"/>
+<wire x1="1.9" y1="-1" x2="-1.9" y2="-1" width="0.05" layer="39"/>
+<wire x1="-1.9" y1="-1" x2="-1.9" y2="1" width="0.05" layer="39"/>
+<wire x1="-0.5" y1="0.8" x2="-1.7" y2="0.8" width="0.1016" layer="21"/>
+<wire x1="-1.7" y1="0.8" x2="-1.7" y2="-0.8" width="0.1016" layer="21"/>
+<wire x1="-1.7" y1="-0.8" x2="-0.5" y2="-0.8" width="0.1016" layer="21"/>
+<wire x1="0.5" y1="0.8" x2="1.7" y2="0.8" width="0.1016" layer="21"/>
+<wire x1="1.7" y1="0.8" x2="1.7" y2="-0.8" width="0.1016" layer="21"/>
+<wire x1="1.7" y1="-0.8" x2="0.5" y2="-0.8" width="0.1016" layer="21"/>
+</package>
+<package name="160-1178-1-ND" use_placeholder="yes">
+<description>Chip LED, 2.00 X 1.25 X 1.10 mm body
+ &lt;p&gt;Chip LED package with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
+<smd name="C" x="-1.1" y="0" dx="1.2" dy="1.2" layer="1"/>
+<smd name="A" x="1.1" y="0" dx="1.2" dy="1.2" layer="1"/>
+<wire x1="-1.9958" y1="0.9908" x2="1" y2="0.9908" width="0.12" layer="21"/>
+<wire x1="-1.9958" y1="0.9908" x2="-1.9958" y2="-0.9908" width="0.12" layer="21"/>
+<wire x1="-1.9958" y1="-0.9908" x2="1" y2="-0.9908" width="0.12" layer="21"/>
+<text x="0" y="1.4" size="0.9" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.4" size="0.9" layer="27" font="vector" align="top-center">&gt;VALUE</text>
+<wire x1="-1.1" y1="0.8" x2="-1.1" y2="-0.8" width="0.12" layer="21"/>
+<wire x1="-1.1" y1="-0.8" x2="1.1" y2="-0.8" width="0.12" layer="21"/>
+<wire x1="1.1" y1="-0.8" x2="1.1" y2="0.8" width="0.12" layer="21"/>
+<wire x1="1.1" y1="0.8" x2="-1.1" y2="0.8" width="0.12" layer="21"/>
+<wire x1="-2.3" y1="1.2" x2="2" y2="1.2" width="0.05" layer="39"/>
+<wire x1="2" y1="1.2" x2="2" y2="-1.2" width="0.05" layer="39"/>
+<wire x1="2" y1="-1.2" x2="-2.3" y2="-1.2" width="0.05" layer="39"/>
+<wire x1="-2.3" y1="-1.2" x2="-2.3" y2="1.2" width="0.05" layer="39"/>
+</package>
+<package name="SI2302CDS-T1-E3CT-ND" use_placeholder="yes">
+<description>3-SOT23, 0.95 mm pitch, 2.37 mm span, 2.92 X 1.30 X 1.12 mm body
+ &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.37 mm span with body size 2.92 X 1.30 X 1.12 mm&lt;/p&gt;</description>
+<smd name="G" x="-0.9845" y="0.95" dx="0.724" dy="0.559" layer="1"/>
+<smd name="S" x="-0.9845" y="-0.95" dx="0.724" dy="0.559" layer="1"/>
+<smd name="D" x="0.9845" y="0" dx="0.724" dy="0.559" layer="1"/>
+<circle x="-2.254" y="1.6335" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.7" y1="-1.52" x2="-0.7" y2="1.52" width="0.12" layer="21"/>
+<text x="0" y="1.9" size="0.9" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.9" size="0.9" layer="27" font="vector" align="top-center">&gt;VALUE</text>
+<wire x1="-0.7" y1="1.52" x2="0.65" y2="1.52" width="0.12" layer="21"/>
+<wire x1="0.65" y1="1.52" x2="0.65" y2="-1.52" width="0.12" layer="21"/>
+<wire x1="0.65" y1="-1.52" x2="-0.7" y2="-1.52" width="0.12" layer="21"/>
+<wire x1="-1.6" y1="1.7" x2="-1.6" y2="-1.7" width="0.05" layer="39"/>
+<wire x1="-1.6" y1="-1.7" x2="1.6" y2="-1.7" width="0.05" layer="39"/>
+<wire x1="1.6" y1="-1.7" x2="1.6" y2="1.7" width="0.05" layer="39"/>
+<wire x1="1.6" y1="1.7" x2="-1.6" y2="1.7" width="0.05" layer="39"/>
+</package>
+<package name="LGA-14L" use_placeholder="yes">
+<smd name="1" x="-1.1625" y="0.75" dx="0.35" dy="0.575" layer="1" rot="R270"/>
+<smd name="2" x="-1.1625" y="0.25" dx="0.35" dy="0.575" layer="1" rot="R270"/>
+<smd name="3" x="-1.1625" y="-0.25" dx="0.35" dy="0.575" layer="1" rot="R270"/>
+<smd name="4" x="-1.1625" y="-0.75" dx="0.35" dy="0.575" layer="1" rot="R270"/>
+<smd name="5" x="-0.5" y="-0.9125" dx="0.35" dy="0.575" layer="1" rot="R180"/>
+<smd name="6" x="0" y="-0.9125" dx="0.35" dy="0.575" layer="1" rot="R180"/>
+<smd name="7" x="0.5" y="-0.9125" dx="0.35" dy="0.575" layer="1" rot="R180"/>
+<smd name="8" x="1.1625" y="-0.75" dx="0.35" dy="0.575" layer="1" rot="R270"/>
+<smd name="9" x="1.1625" y="-0.25" dx="0.35" dy="0.575" layer="1" rot="R270"/>
+<smd name="10" x="1.1625" y="0.25" dx="0.35" dy="0.575" layer="1" rot="R270"/>
+<smd name="11" x="1.1625" y="0.75" dx="0.35" dy="0.575" layer="1" rot="R270"/>
+<smd name="12" x="0.5" y="0.9125" dx="0.35" dy="0.575" layer="1" rot="R180"/>
+<smd name="13" x="0" y="0.9125" dx="0.35" dy="0.575" layer="1" rot="R180"/>
+<smd name="14" x="-0.5" y="0.9125" dx="0.35" dy="0.575" layer="1" rot="R180"/>
+<text x="0" y="1.9" size="0.9" layer="25" font="vector" align="bottom-center">&gt;Name</text>
+<text x="0" y="-2.6" size="0.9" layer="27" font="vector" align="bottom-center">&gt;Value</text>
+<wire x1="-1.8" y1="1.5" x2="1.8" y2="1.5" width="0.12" layer="21"/>
+<wire x1="1.8" y1="1.5" x2="1.8" y2="-1.5" width="0.12" layer="21"/>
+<wire x1="1.8" y1="-1.5" x2="-1.8" y2="-1.5" width="0.12" layer="21"/>
+<wire x1="-1.8" y1="-1.5" x2="-1.8" y2="1.5" width="0.12" layer="21"/>
+<circle x="-2.354" y="1.5335" radius="0.25" width="0" layer="21"/>
+<wire x1="-2" y1="1.7" x2="-2" y2="-1.7" width="0.05" layer="39"/>
+<wire x1="-2" y1="-1.7" x2="2" y2="-1.7" width="0.05" layer="39"/>
+<wire x1="2" y1="-1.7" x2="2" y2="1.7" width="0.05" layer="39"/>
+<wire x1="2" y1="1.7" x2="-2" y2="1.7" width="0.05" layer="39"/>
+<rectangle x1="-0.7" y1="-0.5" x2="0.7" y2="0.5" layer="41"/>
+<rectangle x1="-1.9" y1="-1.6" x2="1.9" y2="1.6" layer="42"/>
+<rectangle x1="-1.9" y1="-1.6" x2="1.9" y2="1.6" layer="43"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="160-1178-1-ND" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.wTOmXNA0Q_qiNBpBf42b3g?version=1" locally_modified="yes" type="model" footprint_synced="no">
+<description>Chip LED, 2.00 X 1.25 X 1.10 mm body
+ &lt;p&gt;Chip LED package with body size 2.00 X 1.25 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="160-1178-1-ND"/>
+</packageinstances>
+<metadata pins="2" bodyLength="2" bodyWidth="1.25" height="1.1" ipcFamily="CHIPLED" ipcName="LEDC2012X110N" mountingType="SMD"/>
+</package3d>
+<package3d name="SI2302CDS-T1-E3CT-ND" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.av4asmj8TRi-5kEITr-aRg?version=1" locally_modified="yes" type="model" footprint_synced="no">
+<description>3-SOT23, 0.95 mm pitch, 2.37 mm span, 2.92 X 1.30 X 1.12 mm body
+ &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.37 mm span with body size 2.92 X 1.30 X 1.12 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SI2302CDS-T1-E3CT-ND"/>
+</packageinstances>
+<metadata pins="3" pitch="0.95" bodyLength="2.92" bodyWidth="1.3" height="1.12" ipcFamily="SOT23" ipcName="SOT95P237X112-3" mountingType="SMD"/>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="RESISTOR">
+<pin name="A" x="-7.62" y="0" visible="pad" length="short"/>
+<pin name="B" x="7.62" y="0" visible="pad" length="short" rot="R180"/>
+<wire x1="5.08" y1="0" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;Name</text>
+<text x="0" y="-5.08" size="1.778" layer="96" align="bottom-center">&gt;Value</text>
+</symbol>
+<symbol name="LED">
+<pin name="C" x="-7.62" y="0" visible="pad" length="short"/>
+<pin name="A" x="7.62" y="0" visible="pad" length="short" rot="R180"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-3.81" x2="-1.27" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-3.175" x2="-3.81" y2="-5.715" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-6.35" x2="0.472971875" y2="-5.715" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-6.35" x2="-0.97550625" y2="-4.765853125" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-5.715" x2="-2.067028125" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-5.715" x2="-3.533046875" y2="-4.1133875" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.778" layer="95" align="bottom-center">&gt;Name</text>
+<text x="0" y="-10.16" size="1.778" layer="96" align="bottom-center">&gt;Value</text>
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="FET">
+<pin name="G" x="-10.16" y="0" visible="pad" length="short"/>
+<pin name="S" x="2.54" y="-10.16" visible="pad" length="short" rot="R90"/>
+<pin name="D" x="2.54" y="10.16" visible="pad" length="short" rot="R270"/>
+<circle x="-11.43" y="0" radius="1.27" width="0.254" layer="94"/>
+<circle x="2.54" y="11.43" radius="1.27" width="0.254" layer="94"/>
+<circle x="2.54" y="-11.43" radius="1.27" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<text x="5.08" y="2.54" size="1.778" layer="95" ratio="6">&gt;Name</text>
+<text x="5.08" y="-2.54" size="1.778" layer="96" ratio="6">&gt;Value</text>
+</symbol>
+<symbol name="IMU">
+<pin name="SDO/SA0" x="-22.86" y="7.62" length="middle" direction="out"/>
+<pin name="SDX" x="-22.86" y="5.08" length="middle"/>
+<pin name="SCX" x="-22.86" y="2.54" length="middle"/>
+<pin name="INT1" x="-22.86" y="0" length="middle" direction="in"/>
+<pin name="VDDIO" x="-22.86" y="-2.54" length="middle" direction="pwr"/>
+<pin name="GND_2" x="-22.86" y="-5.08" length="middle" direction="pas"/>
+<pin name="GND" x="-22.86" y="-7.62" length="middle" direction="pas"/>
+<pin name="VDD" x="22.86" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="INT2" x="22.86" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="OCS_AUX" x="22.86" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="SDO_AUX" x="22.86" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="CS" x="22.86" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="SCL" x="22.86" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="SDA" x="22.86" y="7.62" length="middle" direction="in" rot="R180"/>
+<wire x1="-17.78" y1="12.7" x2="-17.78" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="-12.7" x2="17.78" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="-12.7" x2="17.78" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="17.78" y1="12.7" x2="-17.78" y2="12.7" width="0.1524" layer="94"/>
+<text x="0" y="15.24" size="1.778" layer="95" ratio="6" align="bottom-center">&gt;Name</text>
+<text x="0" y="-15.24" size="1.778" layer="96" ratio="6" align="bottom-center">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RES-0805-0OHM" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0805_RESISTOR" package="0805_RESISTOR">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="B" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="SIDATH"/>
+<attribute name="DIST" value="Digikey"/>
+<attribute name="DISTPN" value="311-0.0ARCT-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RED_LED" prefix="D" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="REDLED" package="160-1178-1-ND">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.wTOmXNA0Q_qiNBpBf42b3g?version=1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="SIDATH"/>
+<attribute name="DIST" value="Digikey"/>
+<attribute name="DISTPIN" value="160-1178-1-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NMOS" prefix="Q" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SI2302CDS-T1-E3CT-ND" package="SI2302CDS-T1-E3CT-ND">
+<connects>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.av4asmj8TRi-5kEITr-aRg?version=1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="SIDATH"/>
+<attribute name="DIST" value="Digikey"/>
+<attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IMU" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="IMU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-IMU" package="LGA-14L">
+<connects>
+<connect gate="G$1" pin="CS" pad="12"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="GND_2" pad="7"/>
+<connect gate="G$1" pin="INT1" pad="4"/>
+<connect gate="G$1" pin="INT2" pad="9"/>
+<connect gate="G$1" pin="OCS_AUX" pad="10"/>
+<connect gate="G$1" pin="SCL" pad="13"/>
+<connect gate="G$1" pin="SCX" pad="3"/>
+<connect gate="G$1" pin="SDA" pad="14"/>
+<connect gate="G$1" pin="SDO/SA0" pad="1"/>
+<connect gate="G$1" pin="SDO_AUX" pad="11"/>
+<connect gate="G$1" pin="SDX" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VDDIO" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="SIDATH"/>
+<attribute name="DIST" value="Digikey"/>
+<attribute name="DISTPN" value="497-18367-1-ND"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
